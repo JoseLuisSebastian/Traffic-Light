@@ -11,3 +11,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.red {
+    background-color:red;
+}
+
+.yellow {
+    background-color:yellow;
+}
+
+.green {
+    background-color:green;
+}
+
+.selectedRed {
+
+    background: radial-gradient(rgb(247, 59, 2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.selectedYellow {
+   
+    background: radial-gradient(rgb(244, 248, 6) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.selectedGreen {
+   
+    background: radial-gradient(rgb(26, 248, 6) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    margin: 5px;
+    padding: 20px 16px; 
+    border-radius: 70px; 
+    border-bottom-style: none;
+    outline: none;
+    box-sizing: none;
+}
